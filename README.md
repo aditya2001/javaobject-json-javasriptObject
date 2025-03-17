@@ -56,5 +56,12 @@ const request = {
         };
 
 ```
+When we want to read a JSON (essentially our string of data) and convert it into a JavaScript Object. The best way to do this is to use this built-in JavaScript function JSON.parse().
 
+let data = {
+           "firstname": "aditya", 
+           "lastname": "Choudhary" 
+           }
+
+let myObj = JSON.parse(data)
 
