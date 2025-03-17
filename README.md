@@ -14,12 +14,14 @@ The curly braces represent json.
   "employees":[{
       "name": "Aditya",
       "age": 38,
-      "location": :"Chicago"
+      "location": "Chicago",
+      "active":  true
        },
        {
-        "name": "Aditya",
-        "age": 38,
-        "location": :"Chicago"
+        "name": "Minakshi",
+        "age": 35,
+        "location": "Chicago"
+        "active": true
        }]
   "Company": "Aditya Automation Learning",
   "locations": ["chicago", "Bhopal","Sehore"],
@@ -38,4 +40,21 @@ Data Types -
 2. Object
 3. Array
 4. Number
+5. Boolean
+
+JSON.stringify() will convert JavaScript Object to JSON that can be sent to webserver.
+
+```java
+let data = {
+        requestid = 228540
+};
+
+const request = {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: jSON.stringify({data})
+        };
+
+```
+
 
