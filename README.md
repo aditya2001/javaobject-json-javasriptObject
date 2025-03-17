@@ -11,9 +11,7 @@ Key is any string, while the values can be String, number, array, object.
 The curly braces represent json.
 ```java
 {
-  "employees": 
-        [
-        {
+  "employees":[{
       "name": "Aditya",
       "age": 38,
       "location": :"Chicago"
@@ -22,8 +20,7 @@ The curly braces represent json.
         "name": "Aditya",
         "age": 38,
         "location": :"Chicago"
-       }
-       ]
+       }]
   "Company": "Aditya Automation Learning",
   "locations": ["chicago", "Bhopal","Sehore"],
   "Address":
