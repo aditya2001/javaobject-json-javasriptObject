@@ -42,7 +42,7 @@ Data Types -
 4. Number
 5. Boolean
 
-JSON.stringify() will convert JavaScript Object to JSON that can be sent to webserver.
+#### JSON.stringify() will convert JavaScript Object to JSON that can be sent to webserver.
 
 ```java
 let data = {
@@ -56,7 +56,7 @@ const request = {
         };
 
 ```
-When we want to read a JSON (essentially our string of data) and convert it into a JavaScript Object. The best way to do this is to use this built-in JavaScript function JSON.parse().
+#### JSON.parse method can read a JSON string and convert it into a JavaScript Object. The best way to do this is to use this built-in JavaScript function JSON.parse().
 
 let data = {
            "firstname": "aditya", 
